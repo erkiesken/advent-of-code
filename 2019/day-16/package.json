@@ -1,0 +1,11 @@
+{
+  "name": "day-16",
+  "version": "1.0.0",
+  "main": "solution.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
