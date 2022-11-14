@@ -1,0 +1,13 @@
+{
+  "name": "aoc-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dijkstrajs": "^1.0.2",
+    "gl-matrix": "^3.4.3",
+    "nodemon": "^2.0.15",
+    "ramda": "^0.27.1",
+    "treis": "^2.6.0"
+  }
+}
