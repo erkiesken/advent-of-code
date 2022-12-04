@@ -20,7 +20,7 @@ const data = R.pipe(
 
 {
   console.log("part 1:", R.pipe(
-    R.map((v) => R.intersection(R.head(v), R.last(v))),
+    R.map((v: number[][]) => R.intersection(R.head(v), R.last(v))),
     R.flatten,
     R.sum,
   )(data));
@@ -30,7 +30,7 @@ const data = R.pipe(
   console.log("part 2:", R.pipe(
     R.splitEvery(3),
     R.map(R.map(R.pipe(R.flatten, R.uniq))),
-    R.map((trio) => {
+    R.map((trio: number[][]) => {
       return R.intersection(R.intersection(trio[2], trio[1]), trio[0]);
     }),
     R.flatten,
