@@ -1,0 +1,8 @@
+menu root {
+  r: "deno run --allow-all solution.ts input.txt"
+  wi: "deno run --allow-all --watch solution.ts input.txt"
+  wt: "deno run --allow-all --watch solution.ts input.test.txt"
+  tt: "deno run --allow-all solution.ts input.test.txt"
+  t1: "deno run --allow-all solution.ts input.test1.txt"
+  t2: "deno run --allow-all solution.ts input.test2.txt"
+}
