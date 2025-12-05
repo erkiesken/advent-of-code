@@ -1,0 +1,8 @@
+menu root {
+  r: "go run solution.go input.txt"
+  w: "modd --file ../modd.conf"
+  t: "modd --file ../modd-test.conf"
+  tt: "go run solution.go input.test.txt"
+  t1: "go run solution.go input.test1.txt"
+  t2: "go run solution.go input.test2.txt"
+}
