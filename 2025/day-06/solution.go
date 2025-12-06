@@ -147,15 +147,3 @@ func sumSlice(s []int) int {
 	// fmt.Printf("Sum of %v is %v\n", s, sum)
 	return sum
 }
-
-func trailingWhitespaceLength(s string) int {
-    count := 0
-    for i := len(s) - 1; i >= 0; i-- {
-        if unicode.IsSpace(rune(s[i])) {
-            count++
-        } else {
-            break
-        }
-    }
-    return count
-}
