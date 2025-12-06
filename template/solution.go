@@ -22,12 +22,12 @@ func main() {
 type Data []string
 
 func readInput(filePath string) Data {
-    data, err := os.ReadFile(filePath)
-    if err != nil {
+	input, err := os.ReadFile(filePath)
+	if err != nil {
 		panic(err)
-    }
+	}
 
-    content := strings.TrimSpace(string(data))
+	content := strings.TrimSpace(string(input))
 	lines := strings.Split(content, "")
 
 	return lines
